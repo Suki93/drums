@@ -1,0 +1,10 @@
+body {
+    background-color: blueviolet;
+    text-align: center;
+}
+.key {
+    padding: 15px;
+}
+.keys {
+    display: flex;
+}
