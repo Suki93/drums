@@ -2,40 +2,61 @@
 <html>
     <head>
         <link href="index.css" type="text/css" rel="stylesheet" >
-        <script src="index.js" type="text/javascript" ></script>
+      
         <title>Drums</title>
     </head>
     <body>
-        <h1>DRUMS!!!</h1>
+  
 
         <div class="keys">
-            <div class="key" id="A">
-                <button>A</button>
+            <div class="key" data-key="49">
+                <kbd>1</kbd>
+                <span class="sound">clap</span>
             </div>
-            <div class="key" id="S">
-                <button>S</button>
+            <div class="key" data-key="50">
+                <kbd>2</kbd>
+                <span class="sound">hinhat</span>
             </div>
-            <div class="key" id="D">
-                <button>D</button>
+            <div class="key"  data-key="51">
+                <kbd>3</kbd>
+                <span class="sound">kick</span>
             </div>
-            <div class="key" id="F">
-                <button>F</button>
+            <div class="key"  data-key="52">
+                <kbd>4</kbd>
+                <span class="sound">openhat</span>
             </div>
-            <div class="key" id="G">
-                <button>G</button>
+            <div class="key"  data-key="53">
+                <kbd>5</kbd>
+                    <span class="sound">boom</span>
             </div>
-            <div class="key" id="H">
-                <button>H</button>
+            <div class="key"  data-key="54">
+                <kbd>6</kbd>
+                <span class="sound">ride</span>
             </div>
-            <div class="key" id="J">
-                <button>J</button>
+            <div class="key"  data-key="55">
+                <kbd>7</kbd>
+                <span class="sound">snare</span>
             </div>
-            <div class="key" id="K">
-                <button>K</button>
+            <div class="key"  data-key="56">
+                <kbd>8</kbd>
+                <span class="sound">tom</span>
             </div>
-            <div class="key" id="L">
-                <button>L</button>
+            <div class="key"  data-key="57">
+                <kbd>9</kbd>
+                <span class="sound">tink</span>
             </div>
         </div>
+
+        <audio src="sounds/clap.wav" data-key="49"></audio>
+        <audio src="sounds/hihat.wav" data-key="50"></audio>
+        <audio src="sounds/kick.wav" data-key="51"></audio>
+        <audio src="sounds/openhat.wav" data-key="52"></audio>
+        <audio src="sounds/boom.wav" data-key="53"></audio>
+        <audio src="sounds/ride.wav" data-key="54"></audio>
+        <audio src="sounds/snare.wav" data-key="55"></audio>
+        <audio src="sounds/tom.wav" data-key="56"></audio>
+        <audio src="sounds/tink.wav" data-key="57"></audio>
+
+        <script src="index.js" type="text/javascript" ></script>
     </body>
 </html>
